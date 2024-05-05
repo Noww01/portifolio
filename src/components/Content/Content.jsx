@@ -16,8 +16,6 @@ function Content() {
   const [delta, setDelta] = useState(130);
 
   const type = () => {
-    console.log(text)
-
     let fullText = phrases[loop % phrases.length];
     let updatedText = isDel ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1)
   
