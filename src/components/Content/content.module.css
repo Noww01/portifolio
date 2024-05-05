@@ -1,0 +1,31 @@
+.content {
+    margin: 150px 200px;
+}
+
+.description {
+    margin-left: 35px;
+    color: #BCBCBC;
+
+    width: 650px;
+}
+
+.about_button {
+    border-style: none;
+    border-radius: 83px;
+    margin-top: 35px;
+    margin-left: 50px;
+
+    width: 180px;
+    height: 50px;
+
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.about_button:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.1s;
+}

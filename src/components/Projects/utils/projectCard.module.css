@@ -1,0 +1,32 @@
+.card {
+    box-shadow: 0.5px 0.5px 5px 0.5px white;
+    border-radius: 20px 2px 20px 2px;
+    padding: 10px 10px;
+
+    width: 300px;
+    height: 400px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.projectImage {
+    width: 300px;
+    height: 150px;
+}
+
+.card a {
+    text-decoration: none;
+    border-style: none;
+    border-radius: 83px;
+    padding: 7px 15px;
+
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.card a:hover {
+    background: linear-gradient(270deg, #06788b 0%, #5a6bca 66.67%, #7231c2 100%);
+}

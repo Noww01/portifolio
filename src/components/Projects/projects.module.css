@@ -1,0 +1,14 @@
+.projectsH1 {
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+
+.projectCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    margin: 0 auto;
+    margin-left: 250px;
+}
+

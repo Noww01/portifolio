@@ -1,0 +1,50 @@
+.navbar { 
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex
+}
+
+.navbar img {
+    width: 25px;
+    height: 25px;
+}
+
+.links {
+    justify-content: flex-start;
+    margin-left: 320px;
+    margin-top: 25px;
+}
+
+.links li {
+    margin: 0px 40px;
+    font-size: 25px;
+    font-weight: 500;
+    
+    cursor: pointer;
+}
+
+.links li:hover {
+    border-bottom: 1px white solid;
+
+    transform: translateY(-2px);
+    transition-duration: 0.08s;
+}
+
+.socialLinks {
+    justify-content: flex-end;
+    margin-top: 32px;
+    margin-right: 130px;
+}
+
+.socialLinks li {
+    margin: 0px 11px;
+}
+
+.socialLinks li:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.08s;
+}
